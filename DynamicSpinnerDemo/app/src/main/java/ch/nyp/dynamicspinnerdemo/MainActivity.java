@@ -14,7 +14,7 @@ import ch.nyp.dynamicspinnerdemo.model.User;
  * Beinhaltet einen Spinner mit dynamischen Einträgen
  *
  * History:
- * 18.11.2016	1.0	Joel Holzer. Klasse erstellt.
+ * 18.11.2016	1.0	Joel Holzer Klasse erstellt.
  *
  * @author Joel Holzer
  * @version 1.0

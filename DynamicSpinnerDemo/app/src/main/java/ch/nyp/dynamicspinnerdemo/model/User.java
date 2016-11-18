@@ -4,7 +4,7 @@ package ch.nyp.dynamicspinnerdemo.model;
  * Repräsentiert einen User.
  *
  * History:
- * 18.11.2016	1.0	Joel Holzer. Klasse erstellt.
+ * 18.11.2016	1.0	Joel Holzer Klasse erstellt.
  *
  * @author Joel Holzer
  * @version 1.0

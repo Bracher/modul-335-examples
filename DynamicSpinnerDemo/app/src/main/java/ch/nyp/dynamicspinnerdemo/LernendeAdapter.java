@@ -13,12 +13,12 @@ import java.util.List;
 import ch.nyp.dynamicspinnerdemo.model.User;
 
 /**
- *  Adapter für den Spinner zur Auswahl des Lernenden.
+ * Adapter für den Spinner zur Auswahl des Lernenden.
  * Im Spinner wird jeder Lernende mit seinem Profilbild und seinem Vor- und Nachnamen angezeigt.
  * Das Profilbild wird im Moment noch von einem Default-Profilbild gefüllt.
  *
  * History:
- * 18.11.2016	1.0	Joel Holzer. Klasse erstellt.
+ * 18.11.2016	1.0	Joel Holzer Klasse erstellt.
  *
  * @author Joel Holzer
  * @version 1.0
@@ -32,7 +32,6 @@ public class LernendeAdapter extends ArrayAdapter<User> {
 	 * Konstruktor. Initialisiert gewisse Member Variablen.
 	 *
 	 * @param context Context der Applikation.
-	 * mit der übergebenen ID wird der Name & Vorname eines Lernenden eingetragen.
 	 * @param lernende Liste mit allen im Spinner anzuzeigenden Lernenden.
 	 * @since 1.0
 	 */
