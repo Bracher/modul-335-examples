@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Card Container: Everything below is one Card-->
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="7dp"
+    card_view:contentPadding="7dp"
+    card_view:cardCornerRadius="7dp"
+    card_view:cardMaxElevation="7dp"
+    android:layout_margin="10px"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/IMACARD">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview1"/>
+    <ImageView
+        android:layout_width="260px"
+        android:layout_height="260px"
+        android:layout_below="@id/textview1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/originale"
+        android:id="@+id/ImageView1"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImageView1"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/menu"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImageView1"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/menu"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImageView1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/menu"/>
+
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>
