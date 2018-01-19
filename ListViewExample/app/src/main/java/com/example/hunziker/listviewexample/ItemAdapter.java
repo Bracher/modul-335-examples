@@ -51,8 +51,8 @@ public class ItemAdapter extends ArrayAdapter<ItemObject> {
             convertView = mLayoutInflater.inflate(R.layout.layout_listview_item, null);
 
             viewHolder = new ViewHolder();
-            viewHolder.itemNameTextView = (TextView) convertView.findViewById(R.id.textview_itemname_listview);
-            viewHolder.itemNumberTextView = (TextView) convertView.findViewById(R.id.textview_itemnumber_listview);
+            viewHolder.itemNameTextView = convertView.findViewById(R.id.textview_itemname_listview);
+            viewHolder.itemNumberTextView = convertView.findViewById(R.id.textview_itemnumber_listview);
             convertView.setTag(viewHolder);
         }
         else {

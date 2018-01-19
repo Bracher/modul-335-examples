@@ -3,7 +3,7 @@ package ch.nyp.databaseexample.logger;
 import android.os.Environment;
 import android.util.Log;
 
-import org.parceler.apache.commons.lang.exception.ExceptionUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
@@ -41,7 +41,7 @@ public class AppLogger {
 
 	/**
 	 * Konstruktor. Initialisiert den Pfad des Logfiles und setzt mit Hilfe der Klasse {@link
-	 * ch.nyp.xelha.logger.LoggingFormatter} den Aufbau einer Zeile im Logfile.
+	 * ch.nyp.databaseexample.logger.LoggingFormatter} den Aufbau einer Zeile im Logfile.
 	 *
 	 * @since 1.0
 	 */
@@ -72,7 +72,7 @@ public class AppLogger {
 
 	/**
 	 * Loggt eine Nachricht.
-	 * Das Muster zum loggen einer Nachricht ist in der Klasse {@link ch.nyp.xelha.logger
+	 * Das Muster zum loggen einer Nachricht ist in der Klasse {@link ch.nyp.databaseexample.logger
 	 * .LoggingFormatter} definiert.
 	 *
 	 * @param logLevel Level der zu loggenden Nachricht. z.B. INFO für normale Nachrichten,

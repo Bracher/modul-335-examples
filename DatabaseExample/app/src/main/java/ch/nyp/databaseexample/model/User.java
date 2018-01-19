@@ -1,13 +1,14 @@
 package ch.nyp.databaseexample.model;
 
-import com.j256.ormlite.field.DatabaseField;
-import com.j256.ormlite.table.DatabaseTable;
+import android.arch.persistence.room.ColumnInfo;
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
 
 /**
  * Model-Klasse für einen Benutzer.
  *
  * Diese Klasse und deren Attribute sind mit Annotations als Datenbank-Tabelle,
- * resp. Datenbank-Feld gekennzeichnet. Das bedeutet, dass dieses Model mit Hilfe von ORM-Lite in
+ * resp. Datenbank-Feld gekennzeichnet. Das bedeutet, dass dieses Model mit Hilfe von Room in
  * eine Tabelle in der SQLite-Datenbank auf dem Smartphone abgebildet wird.
  *
  * History:
@@ -16,29 +17,29 @@ import com.j256.ormlite.table.DatabaseTable;
  * @author Joel Holzer
  * @version 1.0
  */
-@DatabaseTable(tableName = "user")
+@Entity
 public class User{
 
 	//Autoincrement
-	@DatabaseField(generatedId = true)
+	@PrimaryKey(autoGenerate = true)
 	public int id;
 
-	@DatabaseField
+	@ColumnInfo
 	public String accountName;
 
-	@DatabaseField
+	@ColumnInfo
 	public String firstName;
 
-	@DatabaseField
+	@ColumnInfo
 	public String middleName;
 
-	@DatabaseField
+	@ColumnInfo
 	public String lastName;
 
-	@DatabaseField
+	@ColumnInfo
 	public String street;
 
-	@DatabaseField
+	@ColumnInfo
 	public String email;
 
 	public int getId() {

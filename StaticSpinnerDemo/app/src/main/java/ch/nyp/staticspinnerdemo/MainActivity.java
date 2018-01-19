@@ -10,7 +10,7 @@ import android.widget.Spinner;
  * Beinhaltet einen Spinner mit statischen Einträgen
  *
  * History:
- * 18.11.2016	1.0	Joel Holzer. Klasse erstellt.
+ * 18.11.2016	1.0	Joel Holzer		Klasse erstellt.
  *
  * @author Joel Holzer
  * @version 1.0
@@ -30,10 +30,9 @@ public class MainActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		Spinner placesSpinner = (Spinner) findViewById(R.id.spinner_main_places);
+		Spinner placesSpinner = findViewById(R.id.spinner_main_places);
 		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-				R.array.addname_spinner_places, android.R.layout.simple_spinner_item);
+				R.array.main_spinner_places, android.R.layout.simple_spinner_item);
 		placesSpinner.setAdapter(adapter);
-
 	}
 }

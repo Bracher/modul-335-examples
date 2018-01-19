@@ -13,7 +13,7 @@ import android.widget.EditText;
  * wessen Klick, die {@link Activity2} geöffnet und in dieser der eingebene Text angezeigt wird.
  *
  * History:
- * 18.11.2016	1.0	Joel Holzer. Klasse erstellt.
+ * 18.11.2016	1.0	Joel Holzer		Klasse erstellt.
  *
  * @author Joel Holzer
  * @version 1.0
@@ -31,11 +31,11 @@ public class MainActivity extends AppCompatActivity {
 	private View.OnClickListener mOpenActivityOnClickListener = new View.OnClickListener() {
 		@Override
 		public void onClick(View openActivityButton) {
-			Intent intent = new Intent();
-			intent.setClass(getApplicationContext(), Activity2.class);
+			String inputText = mTextToTransferEditText.getText().toString();
+
+			Intent intent = new Intent(getApplicationContext(), Activity2.class);
 			Bundle bundle = new Bundle();
-			bundle.putString(INTENT_KEY_DISPLAY_TEXT_ACTIVITY_2, mTextToTransferEditText.getText
-					().toString());
+			bundle.putString(INTENT_KEY_DISPLAY_TEXT_ACTIVITY_2, inputText);
 			intent.putExtras(bundle);
 			startActivity(intent);
 		}
@@ -55,10 +55,10 @@ public class MainActivity extends AppCompatActivity {
 		setContentView(R.layout.activity_main);
 		setTitle(R.string.mainActivity_title);
 
-		Button openActivityButton = (Button) this.findViewById(R.id.button_main_openActivity2);
+		Button openActivityButton = findViewById(R.id.button_main_openActivity2);
 		openActivityButton.setOnClickListener(mOpenActivityOnClickListener);
 
-		mTextToTransferEditText = (EditText) this.findViewById(R.id
+		mTextToTransferEditText = findViewById(R.id
 				.editText_main_textToTransfer);
 	}
 }

@@ -3,7 +3,7 @@ package ch.nyp.loggingexample.logger;
 import android.os.Environment;
 import android.util.Log;
 
-import org.parceler.apache.commons.lang.exception.ExceptionUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 
 import java.util.logging.FileHandler;
 import java.util.logging.Level;

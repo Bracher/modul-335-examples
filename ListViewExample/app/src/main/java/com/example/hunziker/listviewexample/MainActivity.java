@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             itemList.add(item1);
         }
 
-        ListView listView = (ListView) findViewById(R.id.listview_main_demoList);
+        ListView listView = findViewById(R.id.listview_main_demoList);
         listView.setAdapter(new ItemAdapter(this, itemList));
     }
 }

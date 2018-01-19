@@ -9,7 +9,7 @@ import android.widget.TextView;
  * Gibt den Text, welcher mit dem Intent übergeben wurde, in einem TextView aus.
  *
  * History:
- * 18.11.2016	1.0	Joel Holzer. Klasse erstellt.
+ * 18.11.2016	1.0	Joel Holzer		Klasse erstellt.
  *
  * @author Joel Holzer
  * @version 1.0
@@ -33,7 +33,7 @@ public class Activity2 extends AppCompatActivity {
 
 		Bundle intentBundle = this.getIntent().getExtras();
 
-		TextView transferedTextView = (TextView) this.findViewById(R.id.textView_2_transferedText);
+		TextView transferedTextView =  this.findViewById(R.id.textView_2_transferedText);
 		transferedTextView.setText(intentBundle.getString(MainActivity.INTENT_KEY_DISPLAY_TEXT_ACTIVITY_2));
 	}
 }

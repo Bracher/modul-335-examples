@@ -18,7 +18,7 @@ import ch.nyp.dynamicspinnerdemo.model.User;
  * Das Profilbild wird im Moment noch von einem Default-Profilbild gefüllt.
  *
  * History:
- * 18.11.2016	1.0	Joel Holzer Klasse erstellt.
+ * 18.11.2016	1.0	Joel Holzer		Klasse erstellt.
  *
  * @author Joel Holzer
  * @version 1.0
@@ -77,8 +77,8 @@ public class LernendeAdapter extends ArrayAdapter<User> {
 			convertView = mLayoutInflater.inflate(mSpinnerLayout, null);
 
 			viewHolder = new ViewHolder();
-			viewHolder.userImageView = (ImageView)convertView.findViewById(R.id.image_image_spinner_item_image);
-			viewHolder.userTextView = (TextView)convertView.findViewById(R.id.text_image_spinner_item_text);
+			viewHolder.userImageView = convertView.findViewById(R.id.image_image_spinner_item_image);
+			viewHolder.userTextView = convertView.findViewById(R.id.text_image_spinner_item_text);
 			convertView.setTag(viewHolder);
 		} else {
 			viewHolder = (ViewHolder)convertView.getTag();
