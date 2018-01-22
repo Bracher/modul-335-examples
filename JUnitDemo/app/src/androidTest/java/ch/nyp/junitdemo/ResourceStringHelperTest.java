@@ -28,7 +28,7 @@ public class ResourceStringHelperTest extends ActivityInstrumentationTestCase2<M
 		String restUrl = "/lernenden";
 		int errorCode = 400;
 
-		String expectedString = "eine der gemachten Angaben ist fehlerhaft oder es " +
+		String expectedString = "Mindestens eine der gemachten Angaben ist fehlerhaft oder es " +
 				"wurden mehr als 2 Fotos zum Upload angegeben.";
 		String stringFromLanguageFile = ResourceStringHelper.getRestErrorMessage(mainActivity,
 				restUrl, errorCode);

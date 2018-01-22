@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CardViewExample.iml" filepath="$PROJECT_DIR$/CardViewExample.iml" />
+      <module fileurl="file://D:\05_Firma\10_Uek\335-Uek\ZH-2018\beispielprojekte\CardViewExample\CardViewExample.iml" filepath="D:\05_Firma\10_Uek\335-Uek\ZH-2018\beispielprojekte\CardViewExample\CardViewExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\05_Firma\10_Uek\335-Uek\ZH-2018\beispielprojekte\CardViewExample\app\app.iml" filepath="D:\05_Firma\10_Uek\335-Uek\ZH-2018\beispielprojekte\CardViewExample\app\app.iml" />
     </modules>
   </component>
 </project>
