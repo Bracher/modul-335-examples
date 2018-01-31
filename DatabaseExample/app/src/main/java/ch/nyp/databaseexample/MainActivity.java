@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
 			for (int i = 0; i < 10; i++) {
 				User user = new User();
-				user.firstName = "Vorname" + i;
-				user.lastName = "Nachname" + i;
+				user.setFirstName("Vorname" + i);
+				user.setLastName("Nachname" + i);
 				usersToSave.add(user);
 			}
 

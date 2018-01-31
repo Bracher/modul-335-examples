@@ -18,7 +18,7 @@ import ch.nyp.databaseexample.model.User;
  * @author Joel Holzer
  * @version 1.0
  */
-@Database(entities = {User.class}, version = 1)
+@Database(entities = {User.class}, version = 2)
 public abstract class AppDatabase extends RoomDatabase {
 
 	private static final String DB_NAME = "db_demo_db";
