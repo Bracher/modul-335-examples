@@ -51,4 +51,20 @@ public class MainActivityTest {
 			}
 		});
 	}
+
+	@Test
+	public void testValidateFormFields_correct() throws Throwable {
+		final MainActivity activity = rule.getActivity();
+
+		final EditText editText = activity.findViewById(R.id.edittext_main_name);
+
+		runOnUiThread(new Runnable() {
+			@Override
+			public void run() {
+				editText.setText("Joel Holzer");
+				String errorMessage = activity.validateFormFields();
+				assertEquals(null, errorMessage);
+			}
+		});
+	}
 }
