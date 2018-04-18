@@ -15,4 +15,9 @@ Beispielprojekte für den ÜK Modul 335 "Mobile Applikationen realisieren"
 - <b>DatabaseExample:</b>	Speichern und Lesen in SQLite-Datenbank mit Room Persistence Library	<b>Kap. 8.2.3</b>
 - <b>SensorDemo:</b>	Zeigt alle auf dem Smartphone verfügbaren Sensoren an und ermittelt den Luftdruck und zeigt diesen in einem Toast an.	<b>Kap. 10.2</b>
 - <b>JUnitDemo:</b>	Lokale und instrumented Unit Test.	<b>Kap. 12.1.3</b>
-- <b>CardViewExample:</b>	Anzeige von Einträgen mit Fotos in einer CardView (RecyclerView).	-	
+- <b>InstrumentedUnitTestDemo:</b> Test von Formulareingaben und Validierung mit Integration Tests. <b>Kap. 12.1.5</b>
+- <b>IntegrationTestDemo: </b> Test von Formulareingaben und Validierung mit Integration Tests. <b>Kap. 12.1.3</b>
+- <b>CardViewExample:</b> Anzeige von Einträgen mit Fotos in einer CardView (RecyclerView).	-	
+- <b>PhotoDemo:</b>	Foto schiessen mit der Kamera-App und im Filesystem ablegen	-	
+- <b>SharedPreferencesDemo:</b> Speichern und Auslesen von Werten in/aus die Shared Preferences.	-	
+
