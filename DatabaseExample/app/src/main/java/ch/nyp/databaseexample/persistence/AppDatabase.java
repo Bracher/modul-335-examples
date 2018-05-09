@@ -24,6 +24,14 @@ public abstract class AppDatabase extends RoomDatabase {
 	private static final String DB_NAME = "db_demo_db";
 	private static AppDatabase appDb;
 
+	/**
+	 * Gibt die aktive Instanz dieser Klasse zurück.
+	 * Falls noch keine Instanz existiert, wird eine Instanz erstellt, d.h. es wird die DB im
+	 * Filesystem erstellt und dann die Instanz zurückgegeben.
+	 *
+	 * @param context Context der App
+	 * @return Instanz der App-DB.
+	 */
 	public static AppDatabase getAppDb(Context context) {
 		if (appDb == null) {
 			appDb = Room.databaseBuilder(context, AppDatabase.class, DB_NAME)

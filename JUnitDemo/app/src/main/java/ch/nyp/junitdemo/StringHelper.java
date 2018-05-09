@@ -1,5 +1,15 @@
 package ch.nyp.junitdemo;
 
+/**
+ * Beinhaltet eine Methode, welche prüft ob ein Text mehr als 3 A beinhaltet.
+ * <br/><br/>
+ *
+ * History:
+ * 23.03.2015	1.0	Joel Holzer. Klasse erstellt.
+ *
+ * @author Joel Holzer
+ * @version 1.0
+ */
 public class StringHelper {
 
 	/**

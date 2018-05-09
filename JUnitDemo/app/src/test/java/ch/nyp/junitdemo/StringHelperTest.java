@@ -7,6 +7,13 @@ import static org.junit.Assert.*;
 /**
  * Testklasse für {@link StringHelper}.
  * Lokaler JUnit-Test.
+ * <br/><br/>
+ *
+ * History:
+ * 21.11.2016	1.0	Joel Holzer		Klasse erstellt
+ *
+ * @author Joel Holzer
+ * @version 1.0
  */
 public class StringHelperTest {
 

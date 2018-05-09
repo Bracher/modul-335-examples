@@ -9,30 +9,30 @@
 	>
 
 	<Button
-		android:id="@+id/button_take_photo"
+		android:id="@+id/button_main_photo"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:layout_marginEnd="8dp"
-		android:layout_marginStart="8dp"
-		android:layout_marginTop="8dp"
-		android:text="Hello World!"
+		android:layout_marginEnd="@dimen/margin_medium"
+		android:layout_marginStart="@dimen/margin_medium"
+		android:layout_marginTop="@dimen/margin_medium"
+		android:text="@string/main.takephoto"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toTopOf="parent"
 		/>
 
 	<ImageView
-		android:id="@+id/imageView"
+		android:id="@+id/imageView_main_photo"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:layout_marginBottom="8dp"
-		android:layout_marginEnd="8dp"
-		android:layout_marginStart="8dp"
-		android:layout_marginTop="8dp"
+		android:layout_marginBottom="@dimen/margin_medium"
+		android:layout_marginEnd="@dimen/margin_medium"
+		android:layout_marginStart="@dimen/margin_medium"
+		android:layout_marginTop="@dimen/margin_medium"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toBottomOf="@+id/button_take_photo"
+		app:layout_constraintTop_toBottomOf="@+id/button_main_photo"
 		app:srcCompat="@mipmap/ic_launcher"
 		/>
 

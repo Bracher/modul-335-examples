@@ -18,6 +18,13 @@ import static junit.framework.Assert.assertEquals;
 /**
  * Testklasse für {@link ResourceStringHelper}.
  * Instrumentation Test
+ * <br/><br/>
+ *
+ * History:
+ * 23.03.2015	1.0	Joel Holzer. Klasse erstellt.
+ *
+ * @author Joel Holzer
+ * @version 1.0
  */
 @MediumTest
 @RunWith(AndroidJUnit4.class)
