@@ -20,4 +20,6 @@ Beispielprojekte für den ÜK Modul 335 "Mobile Applikationen realisieren"
 - <b>CardViewExample:</b> Anzeige von Einträgen mit Fotos in einer CardView (RecyclerView).	-	
 - <b>PhotoDemo:</b>	Foto schiessen mit der Kamera-App und im Filesystem ablegen	-	
 - <b>SharedPreferencesDemo:</b> Speichern und Auslesen von Werten in/aus die Shared Preferences.	-	
+- <b>ActionBarIconsExample:</b> ActionBar mit einem Icon-Action-Button und einem weiteren Menüeintrag -
+- <b>TabExample:</b> TabLayout mit 2 Tabs und Anzeige von 2 Fragments in den Tabs -
 
